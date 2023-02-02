@@ -19,6 +19,7 @@ def Horloge():
                         heure+=1
                 if(heure == 24):
                         heure = 0
+                        print("félicitation")
                 seconde+=1
                 print("{:0>2}:{:0>2}:{:0>2}".format(heure,min,seconde))
 
